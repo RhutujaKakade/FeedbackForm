@@ -1,0 +1,10 @@
+.rating-stars-container {
+    font-size: 1rem; /* Adjust the font size to make stars bigger */
+  }
+  
+  .rating-stars {
+    font-size: inherit; /* Inherit the font size from the container */
+  }
+  
+  /* Optional: Add more specific styles if needed */
+  
