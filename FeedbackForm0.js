@@ -11,7 +11,7 @@ import emailjs from 'emailjs-com';
 import { format } from 'date-fns';
 
 // Initialize EmailJS with your public key
-emailjs.init('wfWWIYHMMn25uAJwe');
+emailjs.init('xxxxxxxxx');
 
 const FeedbackForm = () => {
   const initialFormData = {
@@ -88,7 +88,7 @@ const FeedbackForm = () => {
 
     const subject = `Feedback from ${formData.companyName} - Visit Date To: ${formattedVisitDateTo}`;
 
-    emailjs.send('service_ndtrvqv', 'template_dq46xpj', { ...templateParams, subject }, 'wfWWIYHMMn25uAJwe')
+    emailjs.send('xxxxxxxx', 'xxxxxx', { ...templateParams, subject }, 'xxxxxxxxxxxx')
       .then(async (response) => {
         console.log('Email sent successfully!', response.status, response.text);
 
